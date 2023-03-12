@@ -1,0 +1,28 @@
+body{
+    margin: 0;
+    padding: 0;
+    background-color: antiquewhite;
+}
+.container{
+    margin: 0;
+    background-color: aquamarine;
+    font-size: 105%;
+    display: contents;
+    border: 2px solid black;
+    text-align: center;
+}
+.firstText{
+    color: green;
+    border: 2px slod red;
+    position: absolute;
+    margin: 0%;
+    padding: 0%;
+    background-color: black;
+}
+.secondText{
+    color: blue;
+    margin: 0;
+    padding: 0%;
+    position: absolute;
+    background-color: khaki;
+}

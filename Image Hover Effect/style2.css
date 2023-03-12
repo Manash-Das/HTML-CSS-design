@@ -1,0 +1,41 @@
+body{
+    margin: 0;
+    padding: 0;
+    background: grey;
+}
+.container{
+    margin: 200px auto;
+    width: 600px;
+    height: 300px;
+    overflow: hidden;
+    border: solid 2px ;
+    padding: 0;
+    border-radius: 20px;
+}
+.container img{
+    position: relative;
+    margin: 0;
+    padding: 0;
+    top: 0%;
+    width: 100%;
+    object-fit:cover;
+    transition: 1s;
+}
+.textBox{
+    position: relative;
+    padding: 0;
+    margin: 0;
+    top: 0;
+    background-color: aquamarine;
+    transition: 1s;
+}
+p{
+    padding: 10px;
+    margin: 0;
+}
+.container:hover img{
+    top: -20%;
+}
+.container:hover .textBox{
+    top: -25%;
+}
