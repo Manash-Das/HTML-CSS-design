@@ -1,0 +1,44 @@
+body{
+    margin: 0;
+    padding: 0;
+    background-color: yellow;
+}
+h1{
+    text-transform: capitalize;
+    margin: 0;
+    text-align: center;
+}
+button{
+    width: 100px;
+    height: 100px;
+    position: absolute;
+    left: 50%;top: 50%;
+    cursor: pointer;
+    border-width: 4px;
+    border-radius: 4px;
+    background-color: transparent;
+    transform: translate(-50%, -50%);
+    transition: .5s;
+}
+button .line{
+    position: relative;
+    display: block;
+    background-color: #262626;
+    width: 80px;
+    height: 8px;
+    margin: 16px 0;
+    transition: .5s;
+    transform-origin: 50% 50%;
+}
+button:hover{
+    border-radius: 50%;
+}
+button:hover .line:nth-child(1){
+    transform: translateY(24px) rotate(-45deg);
+}
+button:hover .line:nth-child(2){
+    opacity: 0;
+}
+button:hover .line:nth-child(3){
+    transform: translateY(-24px) rotate(45deg);
+}

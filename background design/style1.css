@@ -1,0 +1,27 @@
+body{
+    margin: 0;
+    padding: 0;
+    background-color: rgb(66, 175, 200);
+}
+.sec1{
+    margin: 10%;
+    position: absolute;
+    background-color: yellow;
+    transform: skew(233deg) rotateY(112deg) translateX(-10%);
+    width: 50%;
+    height: 50%;
+    z-index: 1;
+    border-radius: 20%;
+    box-shadow: 38px 10px 89px rgba(0, 0, 0, 0.5);
+}
+.sec2{
+    margin: 10%;
+    position: absolute;
+    background-color: rgb(13, 255, 0);
+    transform: skew(-233deg) rotateY(112deg) translateX(-100%);
+    width: 50%;
+    height: 50%;
+    z-index: 1;
+    border-radius: 20%;
+    box-shadow: -38px 10px 89px rgba(0, 0, 0, 0.5);
+}

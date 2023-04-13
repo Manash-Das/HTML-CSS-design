@@ -1,0 +1,15 @@
+.body{
+    margin: 0;
+    padding: 0;
+    background-color: black;
+}
+
+.triangle4{
+    position: absolute;
+    top: 50%; left: 50%;
+    transform: translate(-50%,-50%);
+    border-bottom: 100px solid green;
+    border-left: 100px solid transparent;
+    border-right: 100px solid transparent;
+    
+}

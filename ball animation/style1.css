@@ -1,0 +1,50 @@
+body{
+    margin: 0;
+    padding: 0;
+    background-color: grey;
+}
+.ball{
+    position: absolute;
+    top: 40%;left: 50%;
+    transform: translate(-50%,-50%);
+    border-radius: 50%;
+    width: 40px; height: 40px;
+    background-image: linear-gradient(0deg, #ec1717 50%, #000000 50%);
+    animation: ballAnimation 1s infinite linear;
+}
+.shadow{
+    position: absolute;
+    top: 51%;left: 50%;
+    transform: translate(50%,0%);
+    border-radius: 50%;
+    width: 40px; height: 10px;
+    background-color: rgba(0, 0, 0, 0.5);
+    animation: shadowAnimation 1s infinite linear;
+}
+@keyframes shadowAnimation {
+    0%{
+        transform: scale(1);
+        opacity: 0.8;
+    }
+    50%{
+        transform: scale(.3);
+        opacity: 0.3;
+    }
+    100%{
+        transform: scale(1);
+        opacity: 0.8;
+    }
+}
+@keyframes ballAnimation {
+    0%{
+        transform: translateY(100%) rotate(0deg);
+    }
+    50%{
+        
+        transform: translateY(-200%) rotate(180deg);
+    }
+    100%{
+        transform: translateY(100%) rotate(360deg);
+
+    }
+}

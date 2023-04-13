@@ -1,0 +1,19 @@
+body{
+    background-color: #90a7ff;
+    margin: 0;
+    padding: 0;
+}
+h1{
+    position: absolute;
+    top: 40%;
+    left: 50%;
+    transform: translateX(-50%) translateY(-50%);
+    font-family: arial;
+    font-weight: bold;
+    transition: .5s;
+    font-size: 80px;
+    color: #fff;
+}
+h1:hover{
+    text-shadow:0px 1px 0px #ccc,0px 1px 15px rgb(0,0,0,.2),0 2px 0 #ccc,0px 3px 0px #ccc,0px 4px 0px #ccc,0px 5px 0px #ccc,0px 6px 0px #ccc,0px 7px 0px #ccc,0px 8px 0px #ccc,0px 9px 0px #ccc,0px 10px 0px #ccc,0px 11px 0px #ccc,0px 12px 0px #ccc;
+}

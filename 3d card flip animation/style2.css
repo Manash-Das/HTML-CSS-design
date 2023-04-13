@@ -1,0 +1,53 @@
+body{
+    margin: 0;
+    padding: 0;
+    background-color: grey;
+}
+.container{
+    position: absolute;
+    top: 50%;left: 50%;
+    transform: translate(-50%,-50%);
+    width: 150px;
+    height: 150px;
+    box-shadow: 0px 3px 3px rgb(0, 0, 0,0.3);
+}
+.textRect1{
+    position: absolute;
+    perspective: 50em;
+    margin: 0;padding: 0;
+    perspective: 1000px;
+    width: 100%;
+    height: 100%;
+    background-color: rgb(250, 4, 4);
+    text-align: center;
+    transform-origin: 50% 100%;
+    transition: 1s ease-in-out;
+    z-index: 1;
+    color: white;
+    transform-style: preserve-3d;
+    backface-visibility: hidden;
+}
+.textRect2{
+    position: absolute;
+    backface-visibility: hidden;
+    transform-style: preserve-3d;
+    perspective: 1000px;
+    margin: 0;padding: 0;
+    width: 100%;
+    height: 100%;
+    background-color: white;
+    color: red;
+    text-align: center;
+    transform-origin: 50% 0%;
+    transition: 1s ease-in-out;
+    transform:rotateX(-90deg);
+}
+
+.container:hover .textRect1{
+    transform:rotateX(90deg);
+    
+}
+.container:hover .textRect2{
+    transform:rotateX(0deg);
+    
+}

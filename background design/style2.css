@@ -1,0 +1,193 @@
+body{
+    margin: 0;
+    padding: 0;
+    background-color: rgb(0, 0, 0);
+}
+.design1{
+    position: absolute;
+    top: 22%;
+    left: 22%;
+    transform: translate(-50%,-50%);
+    border: 2px solid red;
+}
+.design2{
+    position: absolute;
+    top: 22%;
+    left: 77%;
+    transform: translate(-50%,-50%);
+    border: 1px solid red;
+}
+.design3{
+    position: absolute;
+    top: 77%;
+    left: 22%;
+    transform: translate(-50%,-50%);
+    border: 1px solid red;
+}
+.design4{
+    position: absolute;
+    top: 77%;
+    left: 77%;
+    transform: translate(-50%,-50%);
+    border: 1px solid red;
+}
+.container span{
+    position: absolute;
+    display: inline-block;
+    border:2px solid aqua;
+    width: 125px;
+    height: 60px;
+    transform-origin: center;
+    animation: anim 10s infinite;
+}
+.design1 .container span{
+    border-left: none;
+    border-right: none;
+    border-bottom: none;
+    /* border-top: none; */
+}
+.design2 .container span{
+    /* border-left: none; */
+    border-right: none;
+    border-bottom: none;
+    border-top: none;
+    /* animation: animate 10s infinite; */
+}
+.design3 .container span{
+    border-left: none;
+    /* border-right: none; */
+    border-bottom: none;
+    border-top: none;
+    /* animation: animate 10s infinite; */
+}
+.design4 .container span{
+    border-left: none;
+    border-right: none;
+    /* border-bottom: none; */
+    border-top: none;
+}
+.design1:hover span{
+    animation: animate 10s infinite;
+}
+.design2:hover span{
+    animation: animate 10s infinite;
+}
+.design3:hover{
+    animation: animate 10s 1;
+}
+.design .design4:hover span{
+    cursor: pointer;
+    animation: anim 10s infinite;
+    animation: animate 10s infinite;
+}
+
+@keyframes anim {
+    50%{
+        transform: skew(45deg);
+    }
+    
+}
+@keyframes animate {
+    50%{
+        transform: scale(5);
+        
+    }
+    
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+.container span:nth-child(1){
+    transform: rotate(0deg);
+}
+.container span:nth-child(2){
+    transform: rotate(15deg);
+}
+.container span:nth-child(3){
+    transform: rotate(30deg);
+}
+.container span:nth-child(4){
+    transform: rotate(45deg);
+}
+.container span:nth-child(5){
+    transform: rotate(60deg);
+}
+.container span:nth-child(6){
+    transform: rotate(75deg);
+}
+.container span:nth-child(7){
+    transform: rotate(90deg);
+}
+.container span:nth-child(8){
+    transform: rotate(105deg);
+}
+.container span:nth-child(9){
+    transform: rotate(120deg);
+}
+.container span:nth-child(10){
+    transform: rotate(135deg);
+}
+.container span:nth-child(11){
+    transform: rotate(150deg);
+}
+.container span:nth-child(12){
+    transform: rotate(165deg);
+}
+.container span:nth-child(13){
+    transform: rotate(180deg);
+}
+.container span:nth-child(14){
+    transform: rotate(195deg);
+}
+.container span:nth-child(15){
+    transform: rotate(210deg);
+}
+.container span:nth-child(16){
+    transform: rotate(225deg);
+}
+.container span:nth-child(17){
+    transform: rotate(240deg);
+}
+.container span:nth-child(18){
+    transform: rotate(255deg);
+}
+.container span:nth-child(19){
+    transform: rotate(270deg);
+}
+.container span:nth-child(20){
+    transform: rotate(285deg);
+}
+.container span:nth-child(21){
+    transform: rotate(300deg);
+}
+.container span:nth-child(22){
+    transform: rotate(315deg);
+}
+.container span:nth-child(23){
+    transform: rotate(330deg);
+}
+.container span:nth-child(24){
+    transform: rotate(345deg);
+}
+.container span:nth-child(25){
+    transform: rotate(360deg);
+}
+
